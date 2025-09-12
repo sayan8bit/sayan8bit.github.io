@@ -161,6 +161,7 @@ body {
 
 /* Advanced Navigation */
 .nav-container {
+  width: 740px;
   position: fixed;
   top: 20px;
   left: 50%;
@@ -1217,3 +1218,4 @@ textarea.form-input {
 .custom-cursor.hover {
   transform: scale(2);
 }
+
