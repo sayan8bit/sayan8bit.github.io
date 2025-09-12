@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sayan8bit - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- <link rel="icon" type="image/png" href="images/favicon.png" /> -->
+    <!--  -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+
+    <!--  -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    /> -->
+  </head>
+  <body>
+    <!-- Loading Screen -->
+    <div class="loader" id="loader">
+      <div class="loader-content">
+        <div class="loader-spinner"></div>
+        <div class="loader-text">Loading Portfolio...</div>
+      </div>
+    </div>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor" id="customCursor"></div>
+
+    <!-- Background -->
+    <div class="bg-container">
+      <div class="bg-gradient"></div>
+      <div class="bg-overlay"></div>
+    </div>
+
+    <!-- Floating Elements -->
+    <div class="floating-elements">
+      <div class="floating-element"></div>
+      <div class="floating-element"></div>
+      <div class="floating-element"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav-container" id="navbar">
+      <ul class="nav-list">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <div class="hero-badge">👋 Welcome to my portfolio</div>
+        <h1 class="hero-title">Sayan Mondal</h1>
+        <h2 class="hero-subtitle">Full Stack Developer</h2>
+        <p class="hero-description">
+          I craft exceptional digital experiences through innovative web
+          development, combining cutting-edge technology with creative design to
+          bring ideas to life.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <span>Scroll Down</span>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section reveal">
+      <div class="section-header">
+        <div class="section-badge">🚀 About Me</div>
+        <h2 class="section-title">Passionate Developer</h2>
+        <p class="section-description">
+          Fueled by a 6-year passion for web development, I specialize in
+          creating scalable, user-friendly applications that make a difference.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-content">
+          <h3>My Journey</h3>
+          <p class="about-text">
+            I started my journey as a curious developer fascinated by the
+            endless possibilities of code. Today, I work with cutting-edge
+            technologies to build applications that solve real-world problems
+            and create meaningful user experiences.
+          </p>
+          <p class="about-text">
+            My expertise spans across frontend frameworks like React and NextJs,
+            backend technologies including Node.js and MongoDB, and cloud
+            platforms like AWS and Azure.
+          </p>
+
+          <div class="stats-grid">
+            <div class="stat-item">
+              <div class="stat-number">15+</div>
+              <div class="stat-label">Projects Completed</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">8+</div>
+              <div class="stat-label">Core Technologies</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">6+</div>
+              <div class="stat-label">Years of Learning</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">100%</div>
+              <div class="stat-label">Passion Driven</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-container">
+          <div class="skills-grid">
+            <div class="skill-item">
+              <span class="skill-icon">
+                <i class="devicon-react-original"></i>
+              </span>
+              <div class="skill-name">React</div>
+              <div class="skill-level">Expert</div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-icon">
+                <i class="devicon-nodejs-plain-wordmark"></i>
+              </span>
+              <div class="skill-name">Node.js</div>
+              <div class="skill-level">Expert</div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-icon"
+                ><i class="devicon-typescript-plain"></i
+              ></span>
+              <div class="skill-name">TypeScript</div>
+              <div class="skill-level">Proficient</div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-icon"
+                ><i class="devicon-nextjs-plain"></i
+              ></span>
+              <div class="skill-name">NextJs</div>
+              <div class="skill-level">Advanced</div>
+            </div>
+
+            <div class="skill-item">
+              <span class="skill-icon">
+                <i class="devicon-express-original"></i>
+              </span>
+              <div class="skill-name">Express.Js</div>
+              <div class="skill-level">Intermediate</div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-icon"
+                ><i class="devicon-prisma-original"></i>
+              </span>
+              <div class="skill-name">Prisma</div>
+              <div class="skill-level">Proficient</div>
+            </div>
+
+            <div class="skill-item">
+              <span class="skill-icon"
+                ><i class="devicon-mysql-original"></i
+              ></span>
+              <div class="skill-name">MySql</div>
+              <div class="skill-level">Advanced</div>
+            </div>
+
+            <div class="skill-item">
+              <span class="skill-icon"
+                ><i class="devicon-tailwindcss-original"></i
+              ></span>
+              <div class="skill-name">TailwindCss</div>
+              <div class="skill-level">Intermediate</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section reveal">
+      <div class="section-header">
+        <div class="section-badge">💼 My Learning Journey</div>
+        <h2 class="section-title">Developer Timeline</h2>
+        <p class="section-description">
+          A timeline of my learning journey and key milestones as a self-taught
+          developer.
+        </p>
+      </div>
+
+      <div class="experience-timeline">
+        <div class="timeline-line"></div>
+
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <div class="timeline-date">2024 - Present</div>
+            <h3 class="timeline-title">Master of Computer Applications</h3>
+            <div class="timeline-company">Adamas University</div>
+            <p class="timeline-description">
+              Currently pursuing my MCA, my focus is on mastering the complete
+              MERN stack (MongoDB, Express.js, React, Node.js). This phase is
+              dedicated to applying all my knowledge to build and deploy
+              numerous projects. I am actively honing my skills in backend
+              development, API integration, and preparing to contribute to a
+              professional team environment.
+            </p>
+          </div>
+          <div class="timeline-dot"></div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <div class="timeline-date">2021 - 2024</div>
+            <h3 class="timeline-title">Bachelor of Computer Applications</h3>
+            <div class="timeline-company">Brainware University</div>
+            <p class="timeline-description">
+              During my BCA, I built a strong academic foundation in languages
+              like C and Java, choosing Java to master Data Structures &
+              Algorithms by solving problems on LeetCode. I then independently
+              dove into the modern web, learning React and Next.js from the
+              ground up. I began building full-stack applications using
+              TypeScript, Prisma, TailwindCSS, and Shadcn UI.
+            </p>
+          </div>
+          <div class="timeline-dot"></div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <div class="timeline-date">2019 - 2021</div>
+            <h3 class="timeline-title">The Spark: Discovering Code</h3>
+            <div class="timeline-company">Self-Study & Online Platforms</div>
+            <p class="timeline-description">
+              Without a PC, my journey began with a deep curiosity for how
+              websites are built. I learned the fundamentals of HTML, CSS, and
+              JavaScript on my phone using platforms like SoloLearn. This
+              initial passion quickly led me to explore Python, culminating in
+              building my first voice assistant (Jarvis) based on YouTube
+              tutorials.
+            </p>
+          </div>
+          <div class="timeline-dot"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section reveal">
+      <div class="section-header">
+        <div class="section-badge">🚀 Projects</div>
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-description">
+          A showcase of my recent work, demonstrating expertise across different
+          technologies and domains.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-image">
+            💻
+            <div class="project-overlay">
+              <div class="project-links">
+                <a
+                  href="https://sayan8bit.github.io/VibeMeet"
+                  class="project-link"
+                  >Live Demo</a
+                >
+                <a
+                  href="https://github.com/sayan8bit/VibeMeet"
+                  class="project-link"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">VibeMeet - Video Chat</h3>
+            <p class="project-description">
+              A Google Meet clone using PeerJS for low-latency video calls,
+              enabling direct P2P communication, screen sharing, and text chat.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">PeerJS</span>
+              <span class="tech-tag">WebRTC</span>
+              <span class="tech-tag">Tailwind CSS</span>
+              <span class="tech-tag">HTML</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            📱
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-link">Live Demo</a>
+                <a href="#" class="project-link">GitHub</a>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Social Media App</h3>
+            <p class="project-description">
+              A modern social media platform with real-time messaging, story
+              features, and advanced privacy controls. Cross-platform mobile and
+              web application.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">React Native</span>
+              <span class="tech-tag">Firebase</span>
+              <span class="tech-tag">Socket.io</span>
+              <span class="tech-tag">Redux</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            📊
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-link">Live Demo</a>
+                <a href="#" class="project-link">GitHub</a>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Analytics Dashboard</h3>
+            <p class="project-description">
+              Business intelligence platform with real-time data visualization,
+              predictive analytics, and customizable reporting for enterprise
+              clients.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Vue.js</span>
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">PostgreSQL</span>
+              <span class="tech-tag">D3.js</span>
+              <span class="tech-tag">Docker</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            🤖
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-link">Live Demo</a>
+                <a href="#" class="project-link">GitHub</a>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">AI Chatbot Platform</h3>
+            <p class="project-description">
+              Intelligent chatbot platform with natural language processing,
+              multi-language support, and seamless integration capabilities.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">TensorFlow</span>
+              <span class="tech-tag">FastAPI</span>
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">OpenAI</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            🏥
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-link">Live Demo</a>
+                <a href="#" class="project-link">GitHub</a>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Healthcare Management</h3>
+            <p class="project-description">
+              Comprehensive healthcare management system with patient records,
+              appointment scheduling, and telemedicine capabilities.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Angular</span>
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">MySQL</span>
+              <span class="tech-tag">WebRTC</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            🎮
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-link">Live Demo</a>
+                <a href="#" class="project-link">GitHub</a>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Gaming Platform</h3>
+            <p class="project-description">
+              Multiplayer online gaming platform with real-time gameplay,
+              tournaments, leaderboards, and social features for gamers.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Three.js</span>
+              <span class="tech-tag">WebGL</span>
+              <span class="tech-tag">Socket.io</span>
+              <span class="tech-tag">Redis</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section reveal">
+      <div class="section-header">
+        <div class="section-badge">💡 Services</div>
+        <h2 class="section-title">How I Can Help You</h2>
+        <p class="section-description">
+          Comprehensive web development services tailored to meet your business
+          needs and goals.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">🖥️</div>
+          <h3 class="service-title">Frontend Development</h3>
+          <p class="service-description">
+            Building modern, responsive, and intuitive user interfaces.
+          </p>
+          <ul class="service-features">
+            <li>Responsive & Mobile-First Design</li>
+            <li>Interactive User Interfaces (UI)</li>
+            <li>Performance & Speed Optimization</li>
+            <li>SEO-Friendly Structure</li>
+            <li>Cross-Browser Compatibility</li>
+          </ul>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">⚙️</div>
+          <h3 class="service-title">Backend Development</h3>
+          <p class="service-description">
+            Developing robust backend systems and secure APIs.
+          </p>
+          <ul class="service-features">
+            <li>Custom API Development (RESTful)</li>
+            <li>Database Design & Management</li>
+            <li>User Authentication & Security</li>
+            <li>Server-Side Logic</li>
+            <li>Third-Party Service Integration</li>
+          </ul>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">🚀</div>
+          <h3 class="service-title">Deployment & Hosting</h3>
+          <p class="service-description">
+            Deploying your application securely to the web.
+          </p>
+          <ul class="service-features">
+            <li>Cloud Platform Deployment (Vercel, Netlify, etc.)</li>
+            <li>Domain Name & DNS Configuration</li>
+            <li>SSL Certificate Setup (HTTPS)</li>
+            <li>Basic Server Configuration</li>
+            <li>Performance Monitoring</li>
+          </ul>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">🔧</div>
+          <h3 class="service-title">Maintenance & Support</h3>
+          <p class="service-description">
+            Keeping your website secure, updated, and fast.
+          </p>
+          <ul class="service-features">
+            <li>Bug Fixes & Troubleshooting</li>
+            <li>Security Updates & Patches</li>
+            <li>New Feature Enhancements</li>
+            <li>Performance Checks</li>
+            <li>Technical Consultation</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section reveal">
+      <div class="section-header">
+        <div class="section-badge">💬 Principles</div>
+        <h2 class="section-title">Guiding Principles</h2>
+        <p class="section-description">
+          Beyond the code: The principles that define my approach to building
+          software.
+        </p>
+      </div>
+
+      <div class="testimonials-container">
+        <div class="testimonial-card active">
+          <p class="testimonial-text">
+            "My foundation is built on clean architecture and best practices. I
+            write code not just for computers to execute, but for humans to read
+            and build upon."
+          </p>
+          <div class="testimonial-author">
+            <!-- <div class="author-avatar">SM</div> -->
+            <div class="author-info">
+              <!-- <h4>Code Craftsmanship</h4> -->
+              <p>Code Craftsmanship</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <p class="testimonial-text">
+            "Technology's ultimate purpose is to serve people. I prioritize
+            building intuitive, accessible, and user-friendly interfaces that
+            solve real-world problems effectively."
+          </p>
+          <div class="testimonial-author">
+            <!-- <div class="author-avatar">MJ</div> -->
+            <div class="author-info">
+              <!-- <h4>Michael Johnson</h4> -->
+              <p>User-Centric Design</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <p class="testimonial-text">
+            "The tech landscape is always evolving, and I am committed to
+            evolving with it. I am driven by continuous learning and staying
+            current with modern tools and frameworks."
+          </p>
+          <div class="testimonial-author">
+            <!-- <div class="author-avatar">EB</div> -->
+            <div class="author-info">
+              <!-- <h4>Emily Brown</h4> -->
+              <p>Continuous Growth</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section reveal">
+      <div class="section-header">
+        <div class="section-badge">📞 Get In Touch</div>
+        <h2 class="section-title">Let's Work Together</h2>
+        <p class="section-description">
+          Ready to bring your ideas to life? Let's discuss your project and
+          create something amazing together.
+        </p>
+      </div>
+
+      <div class="contact-container">
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">📧</div>
+              <div>
+                <h4>Email</h4>
+                <p>sayan8bit@email.com</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">📱</div>
+              <div>
+                <h4>Phone</h4>
+                <p>+91 6289779784</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">📍</div>
+              <div>
+                <h4>Location</h4>
+                <p>West Bengal</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">⏰</div>
+              <div>
+                <h4>Response Time</h4>
+                <p>Within 24 hours</p>
+              </div>
+            </div>
+          </div>
+
+          <form
+            class="contact-form"
+            id="contactForm"
+            action="https://formspree.io/f/xyzdobao"
+            method="POST"
+          >
+            <div class="form-group">
+              <label class="form-label">Name</label>
+              <input
+                type="text"
+                class="form-input"
+                placeholder="Your name"
+                name="name"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Email</label>
+              <input
+                type="email"
+                class="form-input"
+                placeholder="your@email.com"
+                name="email"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Project Type</label>
+              <select class="form-input" name="project_type" required>
+                <option value="">Select project type</option>
+                <option value="web">Web Development</option>
+
+                <option value="consulting">Consulting</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Message</label>
+              <textarea
+                class="form-input"
+                placeholder="Tell me about your project..."
+                name="message"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="form-submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="social-links">
+          <a
+            href="https://github.com/sayan8bit"
+            class="social-link"
+            title="GitHub"
+          >
+            <i class="devicon-github-original"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/sayan8bit/"
+            class="social-link"
+            title="LinkedIn"
+          >
+            <i class="devicon-linkedin-plain"></i>
+          </a>
+        </div>
+        <p class="footer-text">
+          &copy; 2025 Sayan Mondal. All rights reserved.
+        </p>
+        <p class="footer-text">
+          Built with passion and cutting-edge technologies.
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
