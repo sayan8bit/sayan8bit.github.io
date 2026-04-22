@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="apple-touch-icon" href="assets/favicon.svg" />
+  <title>Sayan Mondal — Portfolio</title>
+  <meta name="description"
+    content="Sayan Mondal — Creative developer, designer and problem solver. Explore my work and let's build something great together." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&family=DM+Serif+Display:ital@0;1&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- Noise Overlay -->
+  <div class="noise"></div>
+
+  <!-- ── NAVIGATION ── -->
+  <header class="nav-bar" id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">S<span>.</span></a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#about" class="nav-link" data-label="01">About</a>
+        <a href="#work" class="nav-link" data-label="02">Work</a>
+        <a href="#skills" class="nav-link" data-label="03">Skills</a>
+        <a href="#contact" class="nav-link" data-label="04">Contact</a>
+      </nav>
+
+      <a href="#contact" class="nav-cta">Let's talk <i class="fas fa-arrow-right"></i></a>
+
+      <button class="burger" id="burger" aria-label="Menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Nav -->
+  <div class="mobile-nav" id="mobileNav">
+    <a href="#about" class="m-link">About</a>
+    <a href="#work" class="m-link">Work</a>
+    <a href="#skills" class="m-link">Skills</a>
+    <a href="#contact" class="m-link">Contact</a>
+  </div>
+
+  <main>
+    <!-- ── HERO ── -->
+    <section id="home" class="hero">
+      <div class="hero-bg-text">PORTFOLIO</div>
+
+      <div class="hero-content">
+        <div class="hero-tag fade-up">
+          <span class="dot"></span> Available for projects
+        </div>
+
+        <h1 class="hero-heading fade-up delay-1">
+          <span class="line">Crafting digital</span>
+          <span class="line italic">experiences</span>
+          <span class="line">that matter.</span>
+        </h1>
+
+        <div class="hero-sub-row fade-up delay-2">
+          <p class="hero-sub">
+            Hi, I'm <strong>Sayan Mondal</strong> — a
+            <span class="type-wrap"><span id="typewriter"></span><span class="type-cursor">|</span></span>
+            <br />based in India, passionate about building things that make
+            life better.
+          </p>
+          <a href="#work" class="hero-scroll-cta">
+            <span>View my work</span>
+            <div class="arrow-circle"><i class="fas fa-arrow-down"></i></div>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-bottom fade-up delay-3">
+        <div class="hero-socials">
+          <a href="https://github.com/sayan8bit" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/sayan8bit/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <!-- <a href="#" aria-label="Dribbble"
+              ><i class="fab fa-dribbble"></i
+            ></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a> -->
+        </div>
+        <div class="hero-scroll-hint">
+          <span>Scroll</span>
+          <div class="scroll-line"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── MARQUEE ── -->
+    <div class="marquee-section">
+      <div class="marquee-track">
+        <div class="marquee-items">
+          <span>Real-Time Systems</span><span class="sep">✦</span>
+          <span>P2P Networking</span><span class="sep">✦</span>
+          <span>Web Development</span><span class="sep">✦</span>
+          <span>Game Development</span><span class="sep">✦</span>
+          <span>Browser APIs</span><span class="sep">✦</span>
+          <span>Real-Time Systems</span><span class="sep">✦</span>
+          <span>Real-Time Systems</span><span class="sep">✦</span>
+          <span>P2P Networking</span><span class="sep">✦</span>
+          <span>Web Development</span><span class="sep">✦</span>
+          <span>Game Development</span><span class="sep">✦</span>
+          <span>Browser APIs</span><span class="sep">✦</span>
+          <span>Real-Time Systems</span><span class="sep">✦</span>
+
+
+
+
+
+          <!-- <span>UI/UX Design</span><span class="sep">✦</span>
+          <span>Web Development</span><span class="sep">✦</span>
+          <span>Brand Identity</span><span class="sep">✦</span>
+          <span>Motion Design</span><span class="sep">✦</span>
+          <span>Creative Direction</span><span class="sep">✦</span>
+          <span>UI/UX Design</span><span class="sep">✦</span>
+          <span>Web Development</span><span class="sep">✦</span>
+          <span>Brand Identity</span><span class="sep">✦</span>
+          <span>Motion Design</span><span class="sep">✦</span>
+          <span>Creative Direction</span><span class="sep">✦</span> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- ── ABOUT ── -->
+    <section id="about" class="about">
+      <div class="section-label fade-up">About me</div>
+
+      <div class="about-grid">
+        <div class="about-image-col fade-up">
+          <div class="about-img-wrap">
+            <img src="/assets/portfolio.png" alt="Sayan Mondal" />
+            <div class="about-badge">
+              <span class="badge-num">05+</span>
+              <span class="badge-txt">Years<br />Mastery</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-text-col fade-up delay-1">
+          <h2 class="section-heading">
+            The person<br /><em>behind the work</em>
+          </h2>
+          <p>
+            I'm a multi-disciplinary creative who sits at the crossroads of
+            design and technology. I believe great work comes from
+            understanding both the human side and the technical side of every
+            problem.
+          </p>
+          <p>
+            My journey spans <strong>years of crafting interfaces</strong>,
+            building products, and exploring the limits of web technology —
+            from experimental real-time applications to developing
+            high-performance digital solutions.
+          </p>
+
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-num">15+</span>
+              <span class="stat-label">Projects Completed</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">10+</span>
+              <span class="stat-label">Tech Stacks</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">100%</span>
+              <span class="stat-label">Clean Code</span>
+            </div>
+          </div>
+
+          <a href="#contact" class="pill-btn">Download Resume <i class="fas fa-download"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── WORK ── -->
+    <section id="work" class="work">
+      <div class="section-top fade-up">
+        <div class="section-label">Selected work</div>
+        <h2 class="section-heading">Projects I'm<br /><em>proud of</em></h2>
+      </div>
+
+      <div class="work-list">
+        <!-- Project 1 -->
+        <div class="work-item fade-up">
+          <div class="work-num">01</div>
+          <div class="work-info">
+            <div class="work-meta">
+              <span class="work-tag">REAL-TIME communication</span>
+              <span class="work-year">2024</span>
+            </div>
+            <h3 class="work-title">Communication Platform</h3>
+            <p class="work-desc">
+              A scalable communication platform enabling seamless video,
+              voice, and file sharing with real-time data flow and efficient
+              connection handling.
+            </p>
+            <a href="https://sayan8bit.github.io/VibeMeet/" class="work-link">View project <i
+                class="fas fa-arrow-right"></i></a>
+          </div>
+          <div class="work-thumb">
+            <img src="assets/v2_project1_communication.png" alt="Communication Platform System Design" onerror="
+                  this.src =
+                    'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop&q=80'
+                " />
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="work-item fade-up delay-1">
+          <div class="work-num">02</div>
+          <div class="work-info">
+            <div class="work-meta">
+              <span class="work-tag">P2P NETWORKING</span>
+              <span class="work-year">2024</span>
+            </div>
+            <h3 class="work-title">File Transfer System</h3>
+            <p class="work-desc">
+              A direct peer-to-peer file transfer platform using connection
+              codes for secure, low-latency data exchange between users.
+            </p>
+            <a href="https://sayan8bit.github.io/file-share/" class="work-link">View project <i
+                class="fas fa-arrow-right"></i></a>
+          </div>
+          <div class="work-thumb">
+            <img src="assets/v2_project2_file_transfer.png" alt="File Transfer System Design" onerror="
+                  this.src =
+                    'https://images.unsplash.com/photo-1558655146-d09347e92766?w=800&auto=format&fit=crop&q=80'
+                " />
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="work-item fade-up delay-2">
+          <div class="work-num">03</div>
+          <div class="work-info">
+            <div class="work-meta">
+              <span class="work-tag">DEVELOPER TOOL</span>
+              <span class="work-year">2023</span>
+            </div>
+            <h3 class="work-title">In-Browser Code Editor</h3>
+            <p class="work-desc">
+              A lightweight in-browser code editor with real-time input
+              handling and an optimized interface for efficient coding
+              workflows.
+            </p>
+            <a href="#" class="work-link">View project <i class="fas fa-arrow-right"></i></a>
+          </div>
+          <div class="work-thumb">
+            <img src="assets/v2_project3_code_editor.png" alt="Code Editor System Design" onerror="
+                  this.src =
+                    'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&auto=format&fit=crop&q=80'
+                " />
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="work-item fade-up delay-3">
+          <div class="work-num">04</div>
+          <div class="work-info">
+            <div class="work-meta">
+              <span class="work-tag">INTERACTIVE SYSTEM</span>
+              <span class="work-year">2023</span>
+            </div>
+            <h3 class="work-title">Real-Time Shooting Game</h3>
+            <p class="work-desc">
+              A browser-based real-time shooting game featuring responsive
+              controls, collision detection, and dynamic gameplay mechanics.
+            </p>
+            <a href="#" class="work-link">View project <i class="fas fa-arrow-right"></i></a>
+          </div>
+          <div class="work-thumb">
+            <img src="assets/v2_project4_shooting_game.png" alt="Shooting Game System Design" onerror="
+                  this.src =
+                    'https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?w=800&auto=format&fit=crop&q=80'
+                " />
+          </div>
+        </div>
+        <a style="margin-top: 20px; justify-content: left;" href="https://sayan8bit.github.io/DevShare/"
+          class="work-link">View all projects <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </section>
+
+    <!-- ── SKILLS ── -->
+    <section id="skills" class="skills">
+      <div class="section-label fade-up">What I work with</div>
+      <h2 class="section-heading fade-up delay-1">
+        Skills &amp; <em>Toolkit</em>
+      </h2>
+
+      <div class="skills-grid fade-up delay-2">
+        <div class="skill-group">
+          <div class="skill-group-icon"><i class="fas fa-pen-ruler"></i></div>
+          <h4>Design</h4>
+          <ul>
+            <li>Figma / Sketch</li>
+            <li>Adobe XD</li>
+            <li>Illustrator</li>
+            <li>Photoshop</li>
+            <li>Motion design</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-icon"><i class="fas fa-code"></i></div>
+          <h4>Development</h4>
+          <ul>
+            <li>HTML / CSS / JS</li>
+            <li>React / Next.js</li>
+            <li>Node.js</li>
+            <li>REST APIs</li>
+            <li>Git / CI-CD</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-icon"><i class="fas fa-lightbulb"></i></div>
+          <h4>Strategy</h4>
+          <ul>
+            <li>User research</li>
+            <li>Wireframing</li>
+            <li>Prototyping</li>
+            <li>A/B Testing</li>
+            <li>Data analytics</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-icon">
+            <i class="fas fa-layer-group"></i>
+          </div>
+          <h4>Tools &amp; Stack</h4>
+          <ul>
+            <li>VS Code</li>
+            <li>Notion / Jira</li>
+            <li>Firebase / Supabase</li>
+            <li>Vercel / Netlify</li>
+            <li>Storybook</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CONTACT ── -->
+    <section id="contact" class="contact">
+      <div class="contact-inner fade-up">
+        <div class="section-label">Say hello</div>
+        <h2 class="contact-heading">Got a project<br />in <em>mind?</em></h2>
+        <p class="contact-sub">
+          I'm open to freelance opportunities, full-time roles, and exciting
+          collaborations. Let's make something great.
+        </p>
+
+        <div class="contact-row">
+          <div class="contact-details">
+            <div class="contact-item">
+              <span class="c-label">Email</span>
+              <a href="mailto:sayan8bit@gmail.com" class="c-value">sayan8bit@gmail.com</a>
+            </div>
+            <div class="contact-item">
+              <span class="c-label">Location</span>
+              <span class="c-value">Kolkata, India</span>
+            </div>
+            <div class="contact-socials">
+              <a href="https://github.com/sayan8bit" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/sayan8bit" aria-label="LinkedIn"><i
+                  class="fab fa-linkedin-in"></i></a>
+              <!-- <a href="#" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a> -->
+            </div>
+          </div>
+
+          <form class="contact-form" id="contactForm">
+            <div class="form-row">
+              <div class="field">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Your name" required />
+              </div>
+              <div class="field">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="your@email.com" required />
+              </div>
+            </div>
+            <div class="field">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" placeholder="What's this about?" />
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" rows="4" placeholder="Tell me about your project..." required></textarea>
+            </div>
+            <button type="submit" class="submit-btn" id="submitBtn">
+              <span>Send message</span>
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ── FOOTER ── -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <span class="footer-logo">Sayan<span>.</span></span>
+      <p class="footer-copy">
+        &copy; <span id="year"></span> All rights reserved.
+      </p>
+      <div class="footer-links">
+        <a href="#home">Back to top <i class="fas fa-arrow-up"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
